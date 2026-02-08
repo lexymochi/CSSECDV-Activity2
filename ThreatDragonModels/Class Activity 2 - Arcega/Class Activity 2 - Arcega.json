@@ -1147,7 +1147,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Trust Boundary",
+              "name": "Generic\nTrust Boundary",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -1155,7 +1155,7 @@
               "containedElements": []
             },
             "labels": [
-              "Trust Boundary"
+              "Generic\nTrust Boundary"
             ],
             "id": "465841be-71a9-4656-9baa-fe0796240ea8",
             "source": {
