@@ -639,7 +639,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Verified\nPrivilege",
+              "name": "Verifies the\nPrivilege",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -653,7 +653,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Verified\nPrivilege"
+              "Verifies the\nPrivilege"
             ],
             "id": "e293d4ec-7815-4ad2-a4d2-baaee5b9e5b2",
             "source": {
@@ -666,7 +666,7 @@
             },
             "vertices": [
               {
-                "x": 740,
+                "x": 750,
                 "y": -180
               }
             ]
@@ -1204,6 +1204,40 @@
               {
                 "x": 90,
                 "y": 130
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Generic\nTrust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Generic\nTrust Boundary"
+            ],
+            "id": "a013bb91-d649-4f57-b82b-72fe9aa597bb",
+            "source": {
+              "x": 280,
+              "y": -10
+            },
+            "target": {
+              "x": 720,
+              "y": -10
+            },
+            "vertices": [
+              {
+                "x": 490,
+                "y": 60
               }
             ]
           }
